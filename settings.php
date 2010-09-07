@@ -1,6 +1,6 @@
 <?php
 
-require_once('lib.php');
+require_once($CFG->dirroot.'/blocks/profile_redirect/lib.php');
 $configs = array();
 
 $configs[] = new admin_setting_heading('profiledesc', get_string('description', 'block_profile_redirect'), get_string('descriptiontxt', 'block_profile_redirect'));

@@ -3,9 +3,7 @@ class block_profile_redirect extends block_base {
     
     function init() {
         global $CFG;
-        
         $this->title = get_string('blockname', 'block_profile_redirect');
-        $this->version = 2009041700;
     }
 
     function applicable_formats() {
@@ -13,20 +11,26 @@ class block_profile_redirect extends block_base {
     }
 
     function get_content() {
-        global $CFG, $USER;
+        global $CFG, $USER, $DB;
         if ($this->content !== NULL) {
             return $this->content;
         }
-        
+
         $context = get_context_instance(CONTEXT_SYSTEM);
         
-        if (has_capability('moodle/site:doanything', $context)) {
+        if (has_capability('moodle/site:config', $context)) { // 'moodle/site:doanything' no longer exists
             $content = get_string('sysadmin','block_profile_redirect');
         } else {
-             $config = get_config('blocks/profile_redirect');
+             $config = get_config('blocks/profile_redirect');          
              if(isset($config->profilefield)){
                  $coursefieldvalue = $config->defaultcourse;
 
+                 // Only Check these conditions if $USER global is fully set up
+                 if ($USER->id == 0 ) {
+                    $this->content = NULL;
+                    return $this->content;
+                 }
+                 
                  if(isset($USER->{$config->profilefield})){
                      if(!empty($USER->{$config->profilefield})){
                         $coursefieldvalue = $USER->{$config->profilefield};
@@ -40,19 +44,12 @@ class block_profile_redirect extends block_base {
                  }
                  // $courefieldvalue must not be empty (if it's empty it redirects infinitly)
                  // It also MUST return 1 record.
-                 $course = get_record('course',$config->coursefield,$coursefieldvalue);
+                 $course = $DB->get_record('course',array($config->coursefield => $coursefieldvalue));
 
                  if (!empty($coursefieldvalue) and !empty($course) ) {
-					//Switched out Core's redirect because it prints a continue button and profile redirect needs to be as clean as possible.
-                     echo '<script type="text/javascript">
-					//<![CDATA[
-
-					  function redirect() {
-					      document.location.replace(\''. addslashes_js($CFG->wwwroot.'/course/view.php?id='.$course->id) .'\');
-					  }
-					  setTimeout("redirect()", 0);
-					//]]>
-					</script>';
+                     // since M2 doesn't output any code we can redirect cleanly
+                     redirect($CFG->wwwroot.'/course/view.php?id='.$course->id,'',0);
+                     $content = ''; // moodle complains if this isn't set
                  } else {
                      $content = '';
                  }

@@ -1,4 +1,5 @@
 <?php
+$string['pluginname'] =  'Profile Redirect';
 $string['blockname'] = 'Profile Redirect';
 $string['description'] ='Description';
 $string['descriptiontxt'] = '<p>The profile redirect block is designed to redirect a user from the site front page or my moodle page the block is loaded on to a new course.  The new course the user is redirected to is based on a value in a profile field matching a value in the course fullname, shortname, or id number based on the site configurations below.</p>
@@ -16,4 +17,3 @@ $string['coursefielddesc'] = 'This is the field in the course settings that the 
 $string['defaultcourse'] = 'Default Course';
 $string['defaultcoursedesc'] = 'This is the course that all non-admin users will be directed to upon viewing the block if they do not have a valid value in their profile field.  This field should have the shortname, fullname, or course id number of the course based on value in the course field drop-down';
 $string['sysadmin'] = 'This block only displays for Site Administrators';
-?>
