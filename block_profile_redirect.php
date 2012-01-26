@@ -39,7 +39,7 @@ class block_profile_redirect extends block_base {
                      require_once($CFG->dirroot.'/user/profile/lib.php');
                      $proffields = profile_user_record($USER->id); // return the custom profile fields
                      if(!empty($proffields->{$config->profilefield})){
-                        $shortname = $proffields->{$config->profilefield};
+                        $coursefieldvalue = $proffields->{$config->profilefield};
                      }
                  }
                  // $courefieldvalue must not be empty (if it's empty it redirects infinitly)
