@@ -17,3 +17,4 @@ $string['coursefielddesc'] = 'This is the field in the course settings that the 
 $string['defaultcourse'] = 'Default Course';
 $string['defaultcoursedesc'] = 'This is the course that all non-admin users will be directed to upon viewing the block if they do not have a valid value in their profile field.  This field should have the shortname, fullname, or course id number of the course based on value in the course field drop-down';
 $string['sysadmin'] = 'This block only displays for Site Administrators';
+$string['profile_redirect:addinstance'] = 'Add a new Profile Redirect block';
