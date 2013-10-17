@@ -1,4 +1,28 @@
 <?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Profile Redirect block lang file.
+ *
+ * @package    block_profile_redirect
+ * @author     Jason Hardin, Chris Stones, and others.
+ * @copyright  Copyright (c) 2013 Moodlerooms, Inc. (www.moodlerooms.com)
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 $string['pluginname'] =  'Profile Redirect';
 $string['blockname'] = 'Profile Redirect';
 $string['description'] ='Description';
@@ -6,7 +30,7 @@ $string['descriptiontxt'] = '<p>The profile redirect block is designed to redire
 
 <p>Remember that once the block settings are configured, an admin has to add an instance of the block to the the front page or my moodle page.  To do this follow the following steps:
 <ol>
-<li>Navigate to the front page, enable editing, select Profile Redirect fr Fom the \"Blocks\" block drop down.</li>
+<li>Navigate to the front page, enable editing, select Profile Redirect from the "Blocks" block drop down.</li>
 <li>Once the block is added all users will be directed to the course specified in their profile field or to the default course if no valid value is in their profile.</li>
 </ol>
  </p>';
