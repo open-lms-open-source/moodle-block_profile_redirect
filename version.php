@@ -24,7 +24,7 @@
  */
 
 $plugin->version   = 2013030501;
-$plugin->requires  = 2014051203;
+$plugin->requires  = 2014111006;
 $plugin->component = 'block_profile_redirect';
-$plugin->release   = '2.7.0 (Build: 20141229)';
+$plugin->release   = '2.8.0 (Build: 20150708)';
 $plugin->maturity  = MATURITY_STABLE;
