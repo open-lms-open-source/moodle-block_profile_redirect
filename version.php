@@ -23,8 +23,8 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$plugin->version   = 2016012600;
-$plugin->requires  = 2015111604; // Requires this Moodle version (3.0.4).
+$plugin->version   = 2016121300;
+$plugin->requires  = 2016052300;
 $plugin->component = 'block_profile_redirect';
-$plugin->release   = '3.0.4 (Build: 20160509)';
+$plugin->release   = '3.1.3';
 $plugin->maturity  = MATURITY_STABLE;
