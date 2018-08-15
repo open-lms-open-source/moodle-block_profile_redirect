@@ -19,7 +19,7 @@
  *
  * @package    block_profile_redirect
  * @author     Jason Hardin, Chris Stones, and others.
- * @copyright  Copyright (c) 2013 Moodlerooms, Inc. (www.moodlerooms.com)
+ * @copyright  Copyright (c) 2013 Blackboard Inc. (www.moodlerooms.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
