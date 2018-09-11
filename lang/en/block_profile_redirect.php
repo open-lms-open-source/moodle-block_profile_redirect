@@ -19,7 +19,7 @@
  *
  * @package    block_profile_redirect
  * @author     Jason Hardin, Chris Stones, and others.
- * @copyright  Copyright (c) 2013 Blackboard Inc. (http://www.blackboardopenlms.com)
+ * @copyright  Copyright (c) 2013 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
