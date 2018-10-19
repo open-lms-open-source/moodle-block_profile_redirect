@@ -50,3 +50,6 @@ $string['sysadmin'] = 'This block only displays for Site Administrators';
 $string['profile_redirect:addinstance'] = 'Add a new Profile Redirect block';
 $string['profile_redirect:myaddinstance'] = 'Add an instance of Profile Redirect block to the my page';
 $string['privacy:metadata'] = 'The Profile Redirect plugin does not store any personal data.';
+
+$string['search:content'] = 'profile_redirect Block content';
+
