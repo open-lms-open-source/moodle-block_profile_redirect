@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -42,3 +42,4 @@ $string['defaultcoursedesc'] = 'Hierbei handelt es sich um den Kurs, an den alle
 $string['sysadmin'] = 'Dieser Block wird nur Administratoren angezeigt';
 $string['profile_redirect:addinstance'] = 'Neuen Block „Profilweiterleitung“ hinzufügen';
 $string['profile_redirect:myaddinstance'] = 'Der Seite "Mein Moodle" eine Instanz des Blocks "Profilweiterleitung" hinzufügen';
+$string['privacy:metadata'] = 'Das Plugin "Profilweiterleitung" speichert keine personenbezogenen Daten.';
