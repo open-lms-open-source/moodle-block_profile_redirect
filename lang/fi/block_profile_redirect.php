@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -47,3 +47,4 @@ $string['defaultcoursedesc'] = 'Tämä on kurssi, jolle kaikki muut kuin ylläpi
 $string['sysadmin'] = 'Tämä lohko on näkyvissä vain sivuston ylläpitäjille';
 $string['profile_redirect:addinstance'] = 'Lisää uusi Profiilin uudelleenohjaus -lohko';
 $string['profile_redirect:myaddinstance'] = 'Lisää Profiilin uudelleenohjaus -lohko omalle aloitussivulle';
+$string['privacy:metadata'] = 'Profiilin uudelleenohjaus -lisäosa ei tallenna mitään henkilökohtaisia tietoja.';
