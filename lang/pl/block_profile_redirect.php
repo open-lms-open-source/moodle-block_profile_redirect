@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -42,3 +42,4 @@ $string['defaultcoursedesc'] = 'Kurs, do którego zostaną przekierowani wszyscy
 $string['sysadmin'] = 'Ten blok mogą wyświetlić wyłącznie administratorzy witryny';
 $string['profile_redirect:addinstance'] = 'Dodaj nowy blok Przekierowanie profilu';
 $string['profile_redirect:myaddinstance'] = 'Dodaj instancję bloku Przekierowanie profilu do mojej strony';
+$string['privacy:metadata'] = 'Wtyczka Przekierowanie profilu nie przechowuje żadnych danych osobowych.';
