@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -47,3 +47,4 @@ $string['defaultcoursedesc'] = 'これは、管理者以外のすべてのユー
 $string['sysadmin'] = 'このブロックはサイト管理者に対してのみ表示されます';
 $string['profile_redirect:addinstance'] = '新しいプロファイルリダイレクトブロックを追加する';
 $string['profile_redirect:myaddinstance'] = 'プロファイルリダイレクトブロックのインスタンスをマイページに追加する';
+$string['privacy:metadata'] = 'プロファイルリダイレクトプラグインでは個人情報を保存しません。';
