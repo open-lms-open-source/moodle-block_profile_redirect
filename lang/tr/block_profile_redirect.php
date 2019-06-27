@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -47,3 +47,4 @@ yönlendirileceği kurstur. Bu alan, kurs alanı açılan listesindeki değere g
 $string['sysadmin'] = 'Bu bloku yalnızca Site Yöneticileri görebilir';
 $string['profile_redirect:addinstance'] = 'Yeni bir Profil Yönlendirme bloku ekle';
 $string['profile_redirect:myaddinstance'] = 'Profil Yönlendirme blokunun bir örneğini sayfama ekle';
+$string['privacy:metadata'] = 'Profil Yönlendirmesi eklentisi, kişisel verileri depolamaz.';
