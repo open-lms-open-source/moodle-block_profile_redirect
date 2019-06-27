@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -43,3 +43,4 @@ $string['defaultcoursedesc'] = 'Dit is de cursus waarnaar alle gebruikers die ge
 $string['sysadmin'] = 'Dit blok wordt alleen weergegeven voor sitebeheerders';
 $string['profile_redirect:addinstance'] = 'Voeg een nieuw blok Omleiding profiel toe';
 $string['profile_redirect:myaddinstance'] = 'Voeg een exemplaar van het blok Omleiding profiel aan mijn pagina toe';
+$string['privacy:metadata'] = 'Er worden geen persoonlijke gegevens opgeslagen door de plugin Omleiding profiel.';
