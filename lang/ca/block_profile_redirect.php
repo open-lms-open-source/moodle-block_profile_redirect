@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -47,3 +47,4 @@ en visualitzar el bloc. En aquest camp, hi hauria d\'haver el nom curt, el nom c
 $string['sysadmin'] = 'Només els administradors del lloc poden visualitzar aquest bloc.';
 $string['profile_redirect:addinstance'] = 'Afegeix un nou bloc de redirecció de perfil';
 $string['profile_redirect:myaddinstance'] = 'Afegeix una instància de bloc de redirecció de perfil a la pàgina El meu Moodle';
+$string['privacy:metadata'] = 'El connector Redireccionament de perfil no emmagatzema dades personals.';
