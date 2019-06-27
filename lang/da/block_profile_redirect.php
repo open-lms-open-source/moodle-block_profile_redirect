@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -47,3 +47,4 @@ ikke har en gyldig værdi i deres profilfelt.  Dette felt skal have kursets kort
 $string['sysadmin'] = 'Denne blok vises kun for webstedsadministratorer';
 $string['profile_redirect:addinstance'] = 'Tilføj en ny blok til Omdiriger profil';
 $string['profile_redirect:myaddinstance'] = 'Føj en forekomst af blokken Omdiriger profil til siden My Moodle';
+$string['privacy:metadata'] = 'Plugin\'et til profilomdirigering gemmer ingen personlige data.';
