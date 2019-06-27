@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -42,3 +42,4 @@ jestliže nemají v poli svého profilu platnou hodnotu. Toto pole by mělo obsa
 $string['sysadmin'] = 'Tento blok se zobrazuje pouze administrátorům webu.';
 $string['profile_redirect:addinstance'] = 'Přidat nový blok Přesměrování profilu';
 $string['profile_redirect:myaddinstance'] = 'Přidat na mou stránku instanci bloku Přesměrování profilu';
+$string['privacy:metadata'] = 'Plugin Přesměrování profilu neukládá žádné osobní údaje.';
