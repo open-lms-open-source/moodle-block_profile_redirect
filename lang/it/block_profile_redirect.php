@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -44,3 +44,4 @@ $string['defaultcoursedesc'] = 'Questo è il corso al quale verranno reindirizza
 $string['sysadmin'] = 'Questo block è visibile solo per gli amministratori del sito';
 $string['profile_redirect:addinstance'] = 'Aggiungi un nuovo block Reindirizzamento profilo';
 $string['profile_redirect:myaddinstance'] = 'Aggiungi un\'istanza del block Reindirizzamento profilo alla mia pagina';
+$string['privacy:metadata'] = 'Il plugin Reindirizzamento profilo non memorizza dati personali.';
