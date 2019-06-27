@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -47,3 +47,4 @@ $string['defaultcoursedesc'] = 'يعد هذا هو المقرر الدراسي �
 $string['sysadmin'] = 'لا يتم عرض هذه الكتلة إلا "لمسؤولي الموقع"';
 $string['profile_redirect:addinstance'] = 'إضافة كتلة جديدة لـ "إعادة توجيه ملف التعريف"';
 $string['profile_redirect:myaddinstance'] = 'إضافة مثيل خاص بكتلة "إعادة توجيه ملف التعريف" إلى الصفحة الخاصة بي';
+$string['privacy:metadata'] = 'لا يُخزن المكون الإضافي "إعادة توجيه ملف التعريف" أية بيانات شخصية.';
