@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2018 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2019 Blackboard Inc. (http://www.blackboard.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -41,3 +41,4 @@ $string['defaultcoursedesc'] = '若使用者的身分不是管理員，且其資
 $string['sysadmin'] = '只有網站管理員能看見此區塊';
 $string['profile_redirect:addinstance'] = '新增「資訊重新引導」區塊';
 $string['profile_redirect:myaddinstance'] = '新增「資訊引導」區塊的例項至我的頁面';
+$string['privacy:metadata'] = '資訊重新引導外掛程式不會儲存任何個人資料。';
