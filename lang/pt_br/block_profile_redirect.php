@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2020 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2021 Open LMS (https://www.openlms.net)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -23,7 +23,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Redirecionar perfil';
 $string['blockname'] = 'Redirecionar perfil';
-$string['description'] = 'Descrição';
+$string['description'] = 'Texto do link';
 $string['descriptiontxt'] = '<p>O bloco de redirecionamento do perfil foi desenvolvido para redirecionar um usuário da página inicial do site ou minha página do Moodle. O bloco é carregado em um novo curso. O novo curso para o qual o usuário é redirecionado baseia-se em um valor de campo do perfil que corresponde ao valor no nome completo de curso, nome curto ou número de código baseado nas configurações de site abaixo.</p>
 
 <p>Lembre-se de que, depois que as configurações de bloco são definidas, um administrador precisa adicionar uma instância do bloco para a página inicial ou minha página Moodle. Para fazer isso, siga as seguintes etapas:
@@ -31,7 +31,7 @@ $string['descriptiontxt'] = '<p>O bloco de redirecionamento do perfil foi desenv
 <li>Navegue para a página inicial, ative a edição, selecione Redirecionar perfil da lista suspensa \\"Blocos\\".</li>
 <li>Depois que o bloco é adicionado, todos os usuários serão direcionados para o curso especificado em seu campo do perfil ou ao curso padrão caso nenhum valor válido esteja em seu perfil.</li>
 </ol>
- </p>';
+</p>';
 $string['profilefield'] = 'Campo do perfil';
 $string['profilefielddesc'] = 'Esse é o campo no perfil de usuário que o bloco de redirecionamento do perfil usará para combinar em relação ao campo de curso.';
 $string['coursefield'] = 'Campo do curso';
