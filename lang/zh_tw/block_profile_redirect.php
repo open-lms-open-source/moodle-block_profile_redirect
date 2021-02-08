@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2020 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2021 Open LMS (https://www.openlms.net)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -23,7 +23,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = '資訊重新引導';
 $string['blockname'] = '資訊重新引導';
-$string['description'] = '說明';
+$string['description'] = '描述';
 $string['descriptiontxt'] = '<p>「資訊重新引導」區塊的設計是將使用者從網站首頁，或包含此區塊的「我的 Moodle」頁面，重新引導至一門新課程。重新引導使用者前往的課程，是依據資訊欄位中的值，與下方顯示網站配置的課程全名、簡稱或編號號碼的值相符情況來決定。</p>
 
 <p>請記得，區塊設定值完成配置後，管理員需將區塊例項新增至首頁或「我的 Moodle」頁面。若要完成此動作，請完成下列步驟：
@@ -31,7 +31,7 @@ $string['descriptiontxt'] = '<p>「資訊重新引導」區塊的設計是將使
 <li>瀏覽首頁，啟用編輯，然後從「新增區塊」該區塊的下拉式清單，選取「資訊重新引導」。</li>
 <li>區塊新增完成後，它將會重新引導所有使用者至他們資訊欄位所指定的課程；或者，若他們的資訊中沒有有效值，將引導使用者至預設課程。</li>
 </ol>
- </p>';
+</p>';
 $string['profilefield'] = '資訊欄位';
 $string['profilefielddesc'] = '這個是使用者資訊裡的欄位，「資訊重新引導」區塊將用它來跟課程欄位進行配對。';
 $string['coursefield'] = '課程欄位';
