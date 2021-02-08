@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2020 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2021 Open LMS (https://www.openlms.net)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -23,9 +23,9 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'プロファイルリダイレクト';
 $string['blockname'] = 'プロファイルリダイレクト';
-$string['description'] = '説明';
+$string['description'] = '記述内容';
 $string['descriptiontxt'] = '<p>プロファイルリダイレクトブロックは、ブロックを含むサイトフロントページやマイMoodleページから新しいコースにユーザをリダイレクトするように設計されています。
- ユーザがリダイレクトされる新しいコースは、コースのフルネーム、省略名、または以下のサイト設定に基づくIDナンバーと一致するプロファイルフィールドの値が基準になります</p>
+ユーザがリダイレクトされる新しいコースは、コースのフルネーム、省略名、または以下のサイト設定に基づくIDナンバーと一致するプロファイルフィールドの値が基準になります</p>
 
 <p>ブロック設定が設定された後に、管理者はブロックのインスタンスをフロントページまたはマイMoodleページに追加する必要があります。
 追加するには、以下のステップを実行します。
@@ -34,7 +34,7 @@ $string['descriptiontxt'] = '<p>プロファイルリダイレクトブロック
 <li>ブロックを追加すると、すべてのユーザが、プロファイル定義で指定されたコースにリダイレクトされます。有効な値がプロファイルにない場合は、
 デフォルトのコースにリダイレクトされます。</li>
 </ol>
- </p>';
+</p>';
 $string['profilefield'] = 'プロファイルフィールド';
 $string['profilefielddesc'] = 'これは、コースフィールドを照合するために、プロファイルリダイレクトブロックで使用されるユーザプロファイルの
 フィールドです。';
