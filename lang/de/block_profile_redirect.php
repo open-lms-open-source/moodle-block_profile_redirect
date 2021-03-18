@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2020 Blackboard Inc. (http://www.blackboard.com)
+ * @copyright  Copyright (c) 2021 Open LMS (https://www.openlms.net)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -24,21 +24,26 @@ defined('MOODLE_INTERNAL') || die();
 $string['pluginname'] = 'Profilweiterleitung';
 $string['blockname'] = 'Profilweiterleitung';
 $string['description'] = 'Beschreibung';
-$string['descriptiontxt'] = '<p>Der Profilweiterleitungsblock dient zur Weiterleitung eines Nutzers von der Startseite der Website oder der Seite „Mein Moodle“, auf der der Block geladen ist, an einen neuen Kurs.  Der neue Kurs, an den der Nutzer weitergeleitet wird, basiert auf einem Wert in einem Profilfeld mit einem passenden Wert im vollständigen Kursnamen, Kurznamen oder der ID-Nummer des Kurses auf der Grundlage der nachstehenden Website-Konfiguration.</p>
+$string['descriptiontxt'] = '<p>Der Profilweiterleitungsblock dient zur Weiterleitung eines/einer Nutzers/in von der Startseite der Website oder der Seite „Mein Moodle“, auf der der Block geladen ist, an
+einen neuen Kurs. Der neue Kurs, an den der/die Nutzer/in weitergeleitet wird, basiert auf einem Wert in einem Profilfeld mit einem passenden Wert im vollständigen Kursnamen, Kurznamen oder der ID-Nummer des Kurses auf der Grundlage der nachstehenden Website-Konfiguration.</p>
 
-<p>Beachten Sie: Nachdem die Blockeinstellungen konfiguriert sind, muss ein Administrator eine Instanz des Blocks auf zur Startseite oder zur Seite „Mein Moodle“ hinzufügen.  Dazu sind die folgenden Schritte auszuführen:
+<p>Beachten Sie: Nachdem die Blockeinstellungen konfiguriert sind, muss ein(e) Administrator/in eine Instanz des Blocks zur Startseite oder zur Seite „Mein
+Moodle“ hinzufügen. Dazu sind die folgenden Schritte auszuführen:
 <ol>
-<li>Navigieren Sie zur Startseite, aktivieren Sie die Bearbeitung und wählen Sie Profilweiterleitung aus der \\"Blocks\\" Dropdown-Liste.</li>
-<li>Sobald der Block hinzugefügt wurde, werden alle Nutzer zu dem in ihrem Profilfeld angegebenen Kurs oder, wenn kein gültiger Wert in ihrem Profil eingetragen ist, an den Standardkurs weitergeleitet.</li>
+<li>Navigieren Sie zur Startseite, aktivieren Sie die Bearbeitung und wählen Sie Profilweiterleitung aus der Block-Dropdown-Liste „Einen Block hinzufügen“ aus.</li>
+<li>Sobald der Block hinzugefügt wurde, werden alle Nutzer/innen zu dem in ihrem Profilfeld angegebenen Kurs oder, wenn
+kein gültiger Wert in ihrem Profil eingetragen ist, an den Standardkurs weitergeleitet.</li>
 </ol>
 </p>';
 $string['profilefield'] = 'Profilfeld';
-$string['profilefielddesc'] = 'Dies ist das Feld im Profil des Nutzers, das vom Profilweiterleitungsblock zur Abstimmung mit dem Kursfeld für die Weiterleitung verwendet wird.';
+$string['profilefielddesc'] = 'Dies ist das Feld im Profil des/der Nutzers/in, das vom Profilweiterleitungsblock zur Abstimmung mit dem
+Kursfeld für die Weiterleitung verwendet wird.';
 $string['coursefield'] = 'Kursfeld';
-$string['coursefielddesc'] = 'Dies ist das Feld in den Kurseinstellungen, das vom Profilweiterleitungsblock zur Abstimmung mit dem Profilfeld des Nutzers für die Weiterleitung verwendet wird.';
+$string['coursefielddesc'] = 'Dies ist das Feld in den Kurseinstellungen, das vom Profilweiterleitungsblock zur Abstimmung mit dem
+Profilfeld des/der Nutzers/in für die Weiterleitung verwendet wird.';
 $string['defaultcourse'] = 'Standardkurs';
-$string['defaultcoursedesc'] = 'Hierbei handelt es sich um den Kurs, an den alle Nutzer, die keine Administratoren sind, bei der
- Anzeige des Blocks weitergeleitet werden, sofern kein gültiger Wert in ihrem Profilfeld eingetragen ist.  Dieses Feld muss den Kurznamen, den vollständigen Namen oder die Kurs-ID-Nummer des Kurses auf der Basis der Dropdown-Liste für das Kursfeld enthalten.';
+$string['defaultcoursedesc'] = 'Hierbei handelt es sich um den Kurs, an den alle Nutzer/innen, die keine Administratoren/innen sind, bei der Anzeige des Blocks weitergeleitet werden, sofern
+kein gültiger Wert in ihrem Profilfeld eingetragen ist. Dieses Feld muss den Kurznamen, den vollständigen Namen oder die Kurs-ID-Nummer des Kurses auf der Basis des Werts in der Dropdown-Liste für das Kursfeld enthalten.';
 $string['sysadmin'] = 'Dieser Block wird nur Administratoren angezeigt';
 $string['profile_redirect:addinstance'] = 'Neuen Block „Profilweiterleitung“ hinzufügen';
 $string['profile_redirect:myaddinstance'] = 'Der Seite "Mein Moodle" eine Instanz des Blocks "Profilweiterleitung" hinzufügen';
