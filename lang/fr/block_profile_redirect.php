@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2020 Open LMS (https://www.openlms.net)
+ * @copyright  Copyright (c) 2021 Open LMS (https://www.openlms.net)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -34,13 +34,11 @@ du bloc à la page d\'accueil ou Mon Moodle. Pour cela, suivez les étapes suiva
 <li>Rendez-vous sur la page d\'accueil, activez les modifications et sélectionnez Redirection de profil dans la liste déroulante Ajouter un bloc.</li>
 <li>Lorsque le bloc est ajouté, tous les utilisateurs sont redirigés vers le cours indiqué dans le champ de leur profil ou vers le cours par défaut s\'il ne contient aucune information valide.</li>
 </ol>
- </p>';
+</p>';
 $string['profilefield'] = 'Champ du profil';
-$string['profilefielddesc'] = 'Il s\'agit du champ que le bloc Redirection de profil utilise dans un profil utilisateur pour
-déterminer le champ du cours.';
+$string['profilefielddesc'] = 'Il s\'agit du champ que le bloc Redirection de profil utilise dans un profil utilisateur pour déterminer le champ du cours.';
 $string['coursefield'] = 'Champ du cours';
-$string['coursefielddesc'] = 'Il s\'agit du champ que le bloc Redirection de profil utilise dans les paramètres de cours et fait
-correspondre au champ du profil utilisateur pour réaliser la redirection.';
+$string['coursefielddesc'] = 'Il s\'agit du champ que le bloc Redirection de profil utilise dans les paramètres de cours et fait correspondre au champ du profil utilisateur pour réaliser la redirection.';
 $string['defaultcourse'] = 'Cours par défaut';
 $string['defaultcoursedesc'] = 'Il s\'agit du cours vers lequel tous les utilisateurs non-administrateurs sont redirigés lorsqu\'ils affichent le bloc et qu\'ils n\'ont aucune information valide dans le champ de leur profil. Ce champ doit contenir le nom complet, le nom abrégé ou l\'identifiant du cours, en fonction de la valeur figurant dans la liste déroulante du champ du cours.';
 $string['sysadmin'] = 'Ce bloc ne s\'affiche que pour les administrateurs du site';

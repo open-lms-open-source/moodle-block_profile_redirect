@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2020 Open LMS (https://www.openlms.net)
+ * @copyright  Copyright (c) 2021 Open LMS (https://www.openlms.net)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -31,7 +31,7 @@ $string['descriptiontxt'] = '<p>El bloque de redireccionamiento del perfil está
 <li>Navegue hasta la página principal, habilite la opción Editar, seleccione Redireccionar perfil en el menú desplegable del bloque \\"Blocks\\".</li>
 <li>Una vez que se haya agregado el bloque, todos los usuarios serán redirigidos al curso especificado en el campo de su perfil o al curso por defecto si no hay un valor válido en su perfil.</li>
 </ol>
- </p>';
+</p>';
 $string['profilefield'] = 'Campo de perfil';
 $string['profilefielddesc'] = 'El bloque Redireccionar perfil usará este campo en el perfil de un usuario para hacerlo coincidir con el campo del curso.';
 $string['coursefield'] = 'Campo del curso';

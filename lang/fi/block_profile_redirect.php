@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2020 Open LMS (https://www.openlms.net)
+ * @copyright  Copyright (c) 2021 Open LMS (https://www.openlms.net)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -23,18 +23,17 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Profiilin uudelleenohjaus';
 $string['blockname'] = 'Profiilin uudelleenohjaus';
-$string['description'] = 'Kuvaus';
+$string['description'] = 'Keskustelualueen kuvaus';
 $string['descriptiontxt'] = '<p>Profiilin uudelleenohjaus -lohko on suunniteltu ohjaamaan käyttäjät lohkon sisältävältä sivuston etusivulta tai Oma Moodle -sivulta
- uudelle kurssille. Uusi kurssi, jolle käyttäjä ohjataan, määräytyy profiilikentässä olevan arvon perusteella. Arvon on täsmättävä kurssin nimessä, lyhenteessä tai tunnisteessa olevaan arvoon. Arvot perustuvat sivuston määrityksiin.</p>
+uudelle kurssille. Uusi kurssi, jolle käyttäjä ohjataan, määräytyy profiilikentässä olevan arvon perusteella. Arvon on täsmättävä kurssin nimessä, lyhenteessä tai tunnisteessa olevaan arvoon. Arvot perustuvat alla oleviin sivuston määrityksiin.</p>
 
-<p>Muista, että lohkon asetusten määrittämisen jälkeen ylläpitäjän on lisättävä lohkon ilmentymä etusivulle tai Oma
-Moodle -sivulle. Ylläpitäjä voi lisätä lohkon seuraavasti:
+<p>Muista, että lohkon asetusten määrittämisen jälkeen ylläpitäjän on lisättävä lohkon ilmentymä etusivulle tai Oma Moodle -sivulle. Ylläpitäjä voi lisätä lohkon seuraavasti:
 <ol>
-<li>Siirry etusivulle, ota muokkaaminen käyttöön ja valitse Profiilin uudelleenohjaus avattavasta "Lisää lohko" -valikosta.</li>
+<li>Siirry etusivulle, ota muokkaaminen käyttöön ja valitse "Lisää lohko" -pudotusvalikosta vaihtoehto Profiilin uudelleenohjaus.</li>
 <li>Kun lohko on lisätty, kaikki käyttäjät ohjataan uudelleen profiilikenttään määritetylle kurssille tai oletuskurssille, jos
 kelvollista arvoa ei löydy profiilista.</li>
 </ol>
- </p>';
+</p>';
 $string['profilefield'] = 'Profiilikenttä';
 $string['profilefielddesc'] = 'Tämä on käyttäjän profiilissa oleva kenttä, jonka Profiilin uudelleenohjaus -lohko yrittää
 yhdistää vastaavaan kurssikenttään.';
@@ -43,7 +42,7 @@ $string['coursefielddesc'] = 'Tämä on kurssin asetuksissa oleva kenttä, jonka
 yhdistää käyttäjän profiilikenttään uudelleenohjausta varten.';
 $string['defaultcourse'] = 'Oletuskurssi';
 $string['defaultcoursedesc'] = 'Tämä on kurssi, jolle kaikki muut kuin ylläpitäjäkäyttäjät ohjataan lohkon tarkastelun jälkeen, jos käyttäjän
- profiilikentässä ei ole kelvollista arvoa. Tähän kenttään on määritettävä kurssin nimi, lyhenne tai tunniste kurssikentän avattavan valikon arvon perusteella.';
+profiilikentässä ei ole kelvollista arvoa. Tähän kenttään on määritettävä lyhenne, koko nimi tai tunniste kurssikentän pudotusvalikon arvon perusteella.';
 $string['sysadmin'] = 'Tämä lohko on näkyvissä vain sivuston ylläpitäjille';
 $string['profile_redirect:addinstance'] = 'Lisää uusi Profiilin uudelleenohjaus -lohko';
 $string['profile_redirect:myaddinstance'] = 'Lisää Profiilin uudelleenohjaus -lohko omalle aloitussivulle';
