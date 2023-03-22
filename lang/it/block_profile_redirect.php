@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @copyright  Copyright (c) 2022 Open LMS (https://www.openlms.net)
+ * @copyright  Copyright (c) 2023 Open LMS (https://www.openlms.net)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -23,15 +23,16 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Reindirizzamento profilo';
 $string['blockname'] = 'Reindirizzamento profilo';
-$string['description'] = 'Commento';
+$string['description'] = 'Descrizione';
 $string['descriptiontxt'] = '<p>Il block Reindirizzamento profilo è progettato per reindirizzare un utente dalla pagina home di un sito o dalla pagina Il mio Moodle a
 un nuovo corso. Il nuovo corso al quale viene indirizzato l\'utente si basa su un valore presente in un campo profilo corrispondente a un valore nel nome completo, nome abbreviato o numero ID del corso secondo le configurazioni del sito sottostanti.</p>
 
-<p>Ricorda che dopo aver configurato le impostazioni di block, l\'amministratore deve aggiungere un\'istanza del block nella pagina home o nella pagina Il
-mio Moodle. Per fare ciò, completa i seguenti passaggi:
+<p>Ricorda che dopo aver configurato le impostazioni di block, l\'amministratore deve aggiungere un\'istanza del block nella pagina home o nella pagina
+Il mio Moodle. Per fare ciò, completa i seguenti passaggi:
 <ol>
 <li>Vai alla pagina home, abilita le modifiche e seleziona Reindirizzamento profilo dal menu a discesa del block "Aggiungi un block".</li>
-<li>Dopo aver aggiunto il block, tutti gli utenti vengono reindirizzati al corso specificato nel loro campo profilo o al corso predefinito se non sono presenti valori validi nel loro profilo.</li>
+<li>Dopo aver aggiunto il block, tutti gli utenti vengono reindirizzati al corso specificato nel loro campo profilo o al corso predefinito
+se non sono presenti valori validi nel loro profilo.</li>
 </ol>
 </p>';
 $string['profilefield'] = 'Campo profilo';
