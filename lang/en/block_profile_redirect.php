@@ -23,9 +23,9 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] =  'Profile Redirect';
+$string['pluginname'] = 'Profile Redirect';
 $string['blockname'] = 'Profile Redirect';
-$string['description'] ='Description';
+$string['description'] = 'Description';
 $string['descriptiontxt'] = '<p>The Profile Redirect block is designed to redirect a user from the site front page or My Moodle page containing the block to
  a new course.  The new course the user is redirected to is based on a value in a profile field matching a value in the course fullname, shortname, or id number based on the site configurations below.</p>
 
