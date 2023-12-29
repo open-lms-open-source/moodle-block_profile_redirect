@@ -66,7 +66,7 @@ class block_profile_redirect extends block_base {
                 // It also MUST return 1 record.
                 $course = $DB->get_record('course', array($config->coursefield => $coursefieldvalue));
 
-                if (!empty($coursefieldvalue) and !empty($course)) {
+                if (!empty($coursefieldvalue) && !empty($course)) {
                     // Since M2 doesn't output any code we can redirect cleanly.
                     redirect($CFG->wwwroot.'/course/view.php?id='.$course->id, '', 0);
                     $content = ''; // Moodle complains if this isn't set.
