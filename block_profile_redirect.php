@@ -23,9 +23,9 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class block_profile_redirect extends block_base {
-   public function init() {
+    public function init() {
         $this->title = get_string('blockname', 'block_profile_redirect');
-    }
+     }
 
     function applicable_formats() {
         return array('all' => false, 'site' => true, 'my' => true);
