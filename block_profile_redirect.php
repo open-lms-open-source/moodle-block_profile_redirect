@@ -25,7 +25,7 @@
 class block_profile_redirect extends block_base {
     public function init() {
         $this->title = get_string('blockname', 'block_profile_redirect');
-     }
+    }
 
     function applicable_formats() {
         return array('all' => false, 'site' => true, 'my' => true);
@@ -38,9 +38,8 @@ class block_profile_redirect extends block_base {
         }
 
         $context = context_system::instance();
-        
         if (has_capability('moodle/site:config', $context)) { // 'moodle/site:doanything' no longer exists.
-            $content = get_string('sysadmin','block_profile_redirect');
+            $content = get_string('sysadmin', 'block_profile_redirect');
         } else {
             $config = get_config('blocks/profile_redirect');
             if (isset($config->profilefield)) {
@@ -65,11 +64,11 @@ class block_profile_redirect extends block_base {
                 }
                 // $courefieldvalue must not be empty (if it's empty it redirects infinitly).
                 // It also MUST return 1 record.
-                $course = $DB->get_record('course',array($config->coursefield => $coursefieldvalue));
+                $course = $DB->get_record('course', array($config->coursefield => $coursefieldvalue));
 
                 if (!empty($coursefieldvalue) and !empty($course)) {
                     // Since M2 doesn't output any code we can redirect cleanly.
-                    redirect($CFG->wwwroot.'/course/view.php?id='.$course->id,'',0);
+                    redirect($CFG->wwwroot.'/course/view.php?id='.$course->id, '', 0);
                     $content = ''; // Moodle complains if this isn't set.
                 } else {
                     $content = '';
@@ -84,11 +83,9 @@ class block_profile_redirect extends block_base {
 
         return $this->content;
     }
-    
     function hide_header() {
         return true;
     }
-    
     function has_config() {
         return true;
     }
