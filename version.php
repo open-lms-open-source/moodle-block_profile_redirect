@@ -23,8 +23,8 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$plugin->version   = 2024040200;
-$plugin->requires  = 2022112800;
+$plugin->version   = 2024061700;
+$plugin->requires  = 2023100900;
 $plugin->component = 'block_profile_redirect';
-$plugin->release   = '4.1.3';
+$plugin->release   = '4.3.4';
 $plugin->maturity  = MATURITY_STABLE;
