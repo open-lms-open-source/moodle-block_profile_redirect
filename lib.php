@@ -25,8 +25,8 @@
 
 /**
  * Return user fields and custom fields
- * 
- * @return array of userfields without the id fields 
+ *
+ * @return array of userfields without the id fields
  */
 function block_profile_redirect_profile_fields() {
     global $CFG, $DB;
@@ -37,7 +37,7 @@ function block_profile_redirect_profile_fields() {
     require_once($CFG->dirroot.'/user/profile/lib.php');
 
     // Only grab the custom profile fields that can contain a course's full name.
-    if ($fields = $DB->get_records_select('user_info_field','')) {
+    if ($fields = $DB->get_records_select('user_info_field', '')) {
         foreach ($fields as $field) {
             require_once($CFG->dirroot.'/user/profile/field/'.$field->datatype.'/field.class.php');
             $newfield = 'profile_field_'.$field->datatype;
