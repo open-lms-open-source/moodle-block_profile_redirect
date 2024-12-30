@@ -26,8 +26,8 @@ $string['blockname'] = 'Redirection de profil';
 $string['description'] = 'Description';
 $string['descriptiontxt'] = '<p>Le bloc de Redirection de profil est conçu pour rediriger un utilisateur de la page d’accueil du site ou de la page Mon Moodle qui contient le bloc vers un nouveau cours. Le nouveau cours vers lequel l\'utilisateur est redirigé est basé sur une valeur dans un champ de profil correspondant à une valeur dans le nom complet, le nom court ou le numéro d\'identification du cours, selon les configurations du site ci-dessous.</p>
 
-<p>N\'oubliez pas qu\'une fois les paramètres de bloc configurés, un administrateur doit ajouter une instance du bloc à la première page ou à la page Mon Moodle. Pour ce faire, suivez ces étapes :<ol>
-<li>Accédez à la première page, activez la modification et sélectionnez Redirection de profil dans la liste déroulante de blocs « Ajouter un bloc ».</li>
+<p>N\'oubliez pas qu\'une fois les paramètres de bloc configurés, un administrateur doit ajouter une instance du bloc à la première page ou à la page Mon Moodle. Pour ce faire, suivez ces étapes&nbsp;:<ol>
+<li>Accédez à la première page, activez la modification et sélectionnez Redirection de profil dans la liste déroulante de blocs «&nbsp;Ajouter un bloc&nbsp;».</li>
 <li>Une fois le bloc ajouté, tous les utilisateurs seront redirigés vers le cours spécifié dans leur champ de profil ou vers le cours par défaut si aucune valeur valide n\'est présente dans leur profil.</li>
 </ol>
 </p>';

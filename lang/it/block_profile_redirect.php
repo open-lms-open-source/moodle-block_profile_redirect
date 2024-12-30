@@ -26,12 +26,9 @@ $string['blockname'] = 'Reindirizzamento profilo';
 $string['description'] = 'Commento';
 $string['descriptiontxt'] = '<p>Il block Reindirizzamento profilo serve a reindirizzare un utente dalla pagina home del sito o dalla pagina My Moodle contenente il block a un nuovo corso. Il nuovo corso al quale viene indirizzato l\'utente si basa su un valore presente in un campo profilo corrispondente a un valore nel nome completo, nome abbreviato o numero ID del corso secondo le configurazioni del sito sottostanti.</p>
 
-<p>Remember that once the block settings are configured, an admin needs to add an instance of the block to the front page or My
-Moodle page.  To do this, complete the following steps:
-<ol>
-<li>Navigate to the front page, enable editing, and select Profile Redirect from the "Add a Block" block drop-down.</li>
-<li>Once the block is added, all users will be redirected to the course specified in their profile field or to the default course if
-no valid value is in their profile.</li>
+<p>Ricorda che dopo aver configurato le impostazioni di block, l\'amministratore deve aggiungere un\'istanza del block nella pagina home o nella pagina My Moodle. Per farlo, completare i passaggi seguenti:<ol>
+<li>Vai alla pagina home, abilita le modifiche e seleziona Reindirizzamento profilo dal menu a discesa del block "Aggiungi un block".</li>
+<li>Dopo aver aggiunto il block, tutti gli utenti vengono reindirizzati al corso specificato nel loro campo profilo o al corso predefinito se nel profilo non ci sono valori validi.</li>
 </ol>
 </p>';
 $string['profilefield'] = 'Campo profilo';
